@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <title>Friendly Bakery</title>
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+            <div id="friendly-header">friendly</div>
+            <div id="bakery-header">BAKERY</div>
+        </div>
+        
+        <div class="topnav">
+            <a href="#home">HOME</a>
+            <!-- <a href="#bread">Bread</a>
+            <a href="#cookies">Cookies</a>
+            <a href="#cakes">Cakes</a>
+            <a href="#muffins">Muffins</a> -->
+            <a href="#about">ABOUT</a>
+            <li class="dropdown">
+                <a href="#">PRODUCTS</a>
+                <ul class="drop-nav">
+                  <li><a href="/bread">Bread</a></li>
+                  <li><a href="/cookies">Cookies</a></li>
+                  <li><a href="/cakes">Cakes</a></li>
+                  <li><a href="/muffins">Muffins</a></li>
+                  </ul>
+                  </li>
+            <a href="#contact">CONTACT </a>
+        </div>
+
+        
+        
+
+        <div class="slideshow-and-email">
+
+                <div class="slideshow">
+                        <!--hovering over the images will pause the slideshow -->
+                        
+                                <div class="slideshow-container slide">
+                                  <img src="images/baguettes.jpg" alt="Baguettes">
+                                  <img src="images/bread.jpg" alt="Bread">
+                                  <div class="text-container">
+                                    <p> We can customize all our bread, cakes, cookies and muffins – contact us for details!</p>
+                                  </div>
+                                  <img src="images/cakes.jpg" alt="Cakes">
+                                  <img src="images/cookies.jpg" alt="Cookies">
+                                  <img src="images/muffins.jpg" alt="Muffins">
+                                </div>
+                            
+                        
+                                </div>
+
+        
+
+        <div class="recipe-email">
+            <form action="/recipe-email" method="post">
+                <div class="recipe-intro">
+                    For ideas and recipes to get you baking like a pro at home, just submit your email below!
+                </div>
+                <br>
+                <div class="user-info" class="light-green accent-4">
+                    <label class="user-name" for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div class="user-info" class="light-green accent-4">
+                    <label class="user-name" for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div class="email-button">
+                    <button class = "btn waves-effect light-green accent-3" type="submit">Submit</button>
+                </div>
+            
+            </form>
+
+        </div>
+        </div>
+        
+        <div class="intro-box">
+                <p><span class="firstcharacter">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Odio ducimus, iure nisi delectus corporis reiciendis consectetur sequi cumque repudiandae quis neque labore magni illum. Eius blanditiis cupiditate voluptatum perferendis, accusamus dolorem obcaecati sunt quidem eos architecto eaque esse, laudantium incidunt inventore cumque voluptate magnam assumenda dicta illo, veritatis hic doloribus quam. Voluptatum quo placeat iure dolorum possimus reprehenderit sint quasi, sed tempora exercitationem ex earum iste aliquid praesentium pariatur consectetur nulla. Labore sequi laudantium dicta sit cupiditate veritatis doloribus, molestiae nihil vel, blanditiis repudiandae illo tenetur perferendis quo illum unde accusamus vitae odit soluta nam? Hic dicta vel molestias totam.</p>
+                
+            </div>
+
+
+
+        <div class="footer" class="light-green accent-3">
+            <a href="#press" class = "light-green-text">PRESS</a>
+            <a href="#faq" class = "light-green-text">FAQ</a>
+            <a href="#jobs" class = "light-green-text">JOBS</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+</body>
+</html>

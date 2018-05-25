@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <title><%= @page_title %></title>
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+            <div id="friendly-header">friendly</div>
+            <div id="bakery-header">BAKERY</div>
+        </div>
+        
+        <div class="topnav">
+            <a href="/">HOME |</a>
+            <a href="/about">ABOUT |</a>
+            <a href="/bread">BREAD |</a>
+            <a href="/cookies">COOKIES |</a>
+            <a href="/cakes">CAKES |</a>
+            <a href="/muffins">MUFFINS |</a>
+            <a href="/contact">CONTACT </a>
+        </div>
+
+        <%= yield %>
+
+       <div class="footer" class="light-green accent-3">
+            <a href="/press" class = "light-green-text">PRESS</a>
+            <a href="/faq" class = "light-green-text">FAQ</a>
+            <a href="/jobs" class = "light-green-text">JOBS</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+</body>
+</html>

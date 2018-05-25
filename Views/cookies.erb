@@ -1,0 +1,35 @@
+<div class="page-header">
+    <div id="friendly-header">
+        friendly
+    </div>
+    <div id="bakery-header">
+        COOKIES
+    </div>
+</div>
+
+<div class="product-display">
+    <div class="product">
+        <div class="image-box-type-one">
+        <img src="images/Black+&+White+Cookie.jpg" alt="Black & White Cookie" class="cookies-image">
+        </div>
+        <div class="product-name"><%= @black_and_white.type %></div>
+        <p class="intro-box"><%= @black_and_white.description %></p>
+        <p class="price"><%= @black_and_white.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/rugelach.jpeg" alt="Rugelach" class="cookies-image">
+        </div>
+        <div class="product-name"><%= @rugelach.type %></div>
+        <p class="intro-box"><%= @rugelach.description %></p>
+        <p class="price"><%= @rugelach.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/donuts.jpeg" alt="Jelly Donuts" class="cookies-image">
+        </div>
+        <div class="product-name"><%= @donuts.type %></div>
+        <p class="intro-box"><%= @donuts.description %></p>
+        <p class="price"><%= @donuts.price %></p>
+    </div>
+</div>

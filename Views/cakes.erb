@@ -1,0 +1,27 @@
+<div class="page-header">
+    <div id="friendly-header">
+        friendly
+    </div>
+    <div id="bakery-header">
+        CAKES
+    </div>
+</div>
+
+<div class="product-display">
+    <div class="product">
+        <div class="image-box-type-one">
+        <img src="images/brooklyn-blackout.jpg" alt="Brooklyn Blackout" class="cakes-image">
+        </div>
+        <div class="product-name"><%= @blackout.type %></div>
+        <p class="intro-box"><%= @blackout.description %></p>
+        <p class="price"><%= @blackout.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/red-velvet.jpg" alt="Red Velvet" class="cakes-image">
+        </div>
+        <div class="product-name"><%= @red_velvet.type %></div>
+        <p class="intro-box"><%= @red_velvet.description %></p>
+        <p class="price"><%= @red_velvet.price %></p>
+    </div>
+</div>

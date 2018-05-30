@@ -20,7 +20,7 @@
         
 
         <div class="recipe-email">
-            <form action="/recipe-email" method="post">
+            <form action="/email" method="POST">
                 <div class="recipe-intro">
                     For ideas and recipes to get you baking like a pro at home, just submit your email below!
                 </div>
@@ -30,11 +30,11 @@
                     <input class="fname" type="text" id="name" name="user_name">
                 </div>
                 <div class="user-info" class="light-green accent-4">
-                    <label class="user-name" for="mail">E-mail:</label>
-                    <input class="fname" type="email" id="mail" name="user_mail">
+                    <label class="user-name" name ="email" type="email" for="mail">E-mail:</label>
+                    <input class="fname" name ="email" type="email" id="mail" name="user_mail">
                 </div>
                 <div class="email-button">
-                    <button class = "btn waves-effect light-green accent-3" type="submit">Submit</button>
+                    <button class = "btn waves-effect light-green accent-3" type="submit" name="action">Submit</button>
                 </div>
             
             </form>
